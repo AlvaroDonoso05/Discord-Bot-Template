@@ -1,0 +1,42 @@
+{
+  "name": "discord-bot-template",
+  "version": "1.0.0",
+  "description": "A Discord Bot Template to start adding custom commands and start making a Discord Bot for your server Easily.",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "commands": "node loadcommands.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Donoso005/Discord-Bot-Template.git"
+  },
+  "keywords": [
+    "DiscordBot",
+    "Bot",
+    "Discord",
+    "SlashCommands",
+    "Slash",
+    "NotchDev",
+    "Notch",
+    "Discord.js",
+    "Template",
+    "Discord-Bot-Template"
+  ],
+  "author": "Don_oso005",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Donoso005/Discord-Bot-Template/issues"
+  },
+  "homepage": "https://github.com/Donoso005/Discord-Bot-Template#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  },
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3",
+    "figlet": "^1.5.2",
+    "signale": "^1.4.0"
+  }
+}
