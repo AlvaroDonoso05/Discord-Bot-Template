@@ -53,7 +53,7 @@ Discord Bot Template to start adding custom commands and start making a Discord 
 
 - Make sure you download de main Branch for new updates, then you have to open a terminal inside the repository clone and run the commands ``npm install`` to get the dependencies.
 - You need nodejs v16 or above, recommended v18, you can download here: **[node.js](https://nodejs.org/)**.
-- Make sure you download the latest version from npm, you can download here: ```bash npm i npm@latest``` 
+- Make sure you download the latest version from npm, you can download here: ```npm i npm@latest``` 
 - You need to download the latest version from Git, you can download here: **[Git](https://git-scm.com/downloads)** 
 
 #### Main Library
