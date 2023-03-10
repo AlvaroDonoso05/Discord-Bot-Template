@@ -114,7 +114,7 @@ Then you have to create the commands inside the command folder, is important to 
 
 In the .env file there is an option to enable "SANDBOX_MODE", if this mode is enabled, the commands will only be registered in the guild that we have configured in the "GUILD_ID" section, if it is disabled, the commands will be registered in all the guilds in which the bot is attached.
 
-To register the commands you have to run the command **npm run loadcommands** then you can run the bot using the command **npm start**
+To register the commands you have to run the command ```**npm run loadcommands**``` then you can run the bot using the command ```**npm start**```
 
 That's all it takes to build your own discord bot.
 
