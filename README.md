@@ -2,7 +2,7 @@
 
 Discord Bot Template to start adding custom commands and start making a Discord Bot for your server Easily, built on top of **[discord.js](https://discord.js.org/)** library.
 
-# Why Discord Player?
+# Proyect Files?
 ```bash
 │   .env.example
 │   index.js
