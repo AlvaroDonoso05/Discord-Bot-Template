@@ -118,6 +118,6 @@ To register the commands you have to run the command **```npm run loadcommands``
 
 That's all it takes to build your own discord bot.
 
-You can get support sending a message to Don_oso005#6475 on Discord. If you have see any bugs please report in  **[Bugs](https://github.com/Donoso005/Discord-Bot-Template/issues)**
+You can get support sending a message to **Don_oso005#6475** on Discord. If you have see any bugs please report in  **[Bugs](https://github.com/Donoso005/Discord-Bot-Template/issues)**
 
 **IMPORTANT!!** Remember to give rights to Don_oso005
