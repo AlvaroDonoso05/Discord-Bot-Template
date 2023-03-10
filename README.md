@@ -90,17 +90,16 @@ To create events you can follow this structure, remember to place the events fil
 
 
 ```js
-const { SlashCommandBuilder } = require('discord.js');
-const { EmbedBuilder } = require('discord.js');
+const { Events } = require('discord.js');
 
 module.exports = {
-	data: new SlashCommandBuilder()
-		.setName('ping') // The name of the command
-		.setDescription('Replies with Pong!'), // The description of the command
-	async execute(interaction, client) {
-        // the command function
+	name: Events.ClientReady,
+	once: true,
+	execute(client) {
+		log.complete({message: `Bot Connected Succesfully to Discord.`, suffix: `Tag: (${client.user.tag})` });
 	},
 };
+
 ```
 Then you have to create the commands inside the command folder, is important to create different folder inside the **commands folder** to organize the commands. 
 
