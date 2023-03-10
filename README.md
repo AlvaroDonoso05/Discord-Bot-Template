@@ -85,6 +85,23 @@ module.exports = {
 	},
 };
 ```
+
+To create events you can follow this structure, remember to place the events file in the events folder:
+
+
+```js
+const { SlashCommandBuilder } = require('discord.js');
+const { EmbedBuilder } = require('discord.js');
+
+module.exports = {
+	data: new SlashCommandBuilder()
+		.setName('ping') // The name of the command
+		.setDescription('Replies with Pong!'), // The description of the command
+	async execute(interaction, client) {
+        // the command function
+	},
+};
+```
 Then you have to create the commands inside the command folder, is important to create different folder inside the **commands folder** to organize the commands. 
 
 ```bash
